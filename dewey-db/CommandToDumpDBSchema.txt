@@ -1,0 +1,3 @@
+For reference, this is the command used to dump the DB schema and stored procedures.
+
+mysqldump -u root -p flowbot --routines --no-data=true --add-drop-table=false > c:\dewey\dewey-db\deweydb.sql
